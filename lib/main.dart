@@ -9,8 +9,12 @@ void main() => runApp(MyApp());
 
 /// This Widget is the main application widget.
 class MyApp extends StatelessWidget {
-  static const String _title = 'Quaranteam';
-
+  static const String _title = 'Quaranteam'; //khankir polla/
+  // Khankir pola
+  // foinni ki koros
+  /// madarchod
+  /// fadarchod
+  /// tore chudi
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -78,3 +82,6 @@ class MyStatelessWidget extends StatelessWidget {
     );
   }
 }
+
+// trial shit
+// fuck this shit
