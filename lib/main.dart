@@ -32,9 +32,7 @@ class MyStatelessWidget extends StatelessWidget {
       RichText(
         text: TextSpan(
           children: <TextSpan>[
-            TextSpan(
-                style: textStyle,
-                text: 'Hello World!'),
+            TextSpan(style: textStyle, text: 'Hello World!'),
             TextSpan(
                 style: textStyle.copyWith(color: Theme.of(context).accentColor),
                 text: 'https://flutter.dev'),
@@ -46,7 +44,7 @@ class MyStatelessWidget extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Quaranteam'),
+        title: Text('Quaranteam App'),
       ),
       drawer: Drawer(
         child: SingleChildScrollView(
