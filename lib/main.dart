@@ -4,8 +4,22 @@
 // uses an [AboutListTile], and the second uses the [showAboutDialog] function.
 
 import 'package:flutter/material.dart';
+import 'package:quaran_team/screens/login_screen.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(Login());
+
+// The login page application widget
+class Login extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Login UI',
+      debugShowCheckedModeBanner: false,
+      home: LoginScreen(),
+    );
+  }
+}
 
 /// This Widget is the main application widget.
 class MyApp extends StatelessWidget {
