@@ -1,4 +1,14 @@
+/// ******************************************************************************
+///  LoginScreen widget: The app's login screen and it's corresponding           *
+///  sub-widgets.                                                                *
+///                                                                              *
+/// @author Md Rakeen Murtaza (rakeen.murtaza.12@gmail.com)                      *
+///                                                                              *
+///*******************************************************************************/
+
+
 import 'package:flutter/material.dart';
+
 import 'package:flutter/services.dart';
 import 'package:quaran_team/main.dart';
 import 'package:quaran_team/utilities/constants.dart';
@@ -143,7 +153,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Text(
           'LOGIN',
           style: TextStyle(
-            color: Color(0xFF527DAA),
+            color: Color(0xFF3F51B5),
             letterSpacing: 1.5,
             fontSize: 18.0,
             fontWeight: FontWeight.bold,
@@ -223,10 +233,10 @@ class _LoginScreenState extends State<LoginScreen> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      Color(0xFF73AEF5),
-                      Color(0xFF61A4F1),
-                      Color(0xFF478DE0),
-                      Color(0xFF398AE5),
+                      Color(0xFF9FA8DA),
+                      Color(0xFF7986CB),
+                      Color(0xFF5C6BC0),
+                      Color(0xFF3F51B5),
                     ],
                     stops: [0.1, 0.4, 0.7, 0.9],
                   ),

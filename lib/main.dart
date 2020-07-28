@@ -3,6 +3,14 @@
 // This sample shows two ways to open [AboutDialog]. The first one
 // uses an [AboutListTile], and the second uses the [showAboutDialog] function.
 
+/// ******************************************************************************
+///  Main class: The main.dart file specifying different application states      *
+///                                                                              *
+/// @authors Md Rakeen Murtaza (rakeen.murtaza.12@gmail.com)                     *
+///          Mahathir Abir Hossan Maxim                                          *
+///                                                                              *
+///*******************************************************************************/
+
 import 'package:flutter/material.dart';
 import 'package:quaran_team/screens/login_screen.dart';
 

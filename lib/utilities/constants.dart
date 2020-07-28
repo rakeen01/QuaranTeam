@@ -1,3 +1,10 @@
+/// ******************************************************************************
+///  Constants class: Utilities used by the application UI                    *
+///                                                                              *
+/// @author Md Rakeen Murtaza (rakeen.murtaza.12@gmail.com)                      *
+///                                                                              *
+///*******************************************************************************/
+
 import 'package:flutter/material.dart';
 
 final kHintTextStyle = TextStyle(
@@ -12,7 +19,7 @@ final kLabelStyle = TextStyle(
 );
 
 final kBoxDecorationStyle = BoxDecoration(
-  color: Color(0xFF6CA8F1),
+  color: Color(0xFF5C6BC0),
   borderRadius: BorderRadius.circular(10.0),
   boxShadow: [
     BoxShadow(
