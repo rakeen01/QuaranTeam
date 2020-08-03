@@ -3,9 +3,32 @@
 // This sample shows two ways to open [AboutDialog]. The first one
 // uses an [AboutListTile], and the second uses the [showAboutDialog] function.
 
-import 'package:flutter/material.dart';
+/// ******************************************************************************
+///  Main class: The main.dart file specifying different application states      *
+///                                                                              *
+/// @authors Md Rakeen Murtaza (rakeen.murtaza.12@gmail.com)                     *
+///          Mahathir Abir Hossan Maxim                                          *
+///                                                                              *
+///*******************************************************************************/
 
-void main() => runApp(MyApp());
+import 'package:flutter/material.dart';
+import 'package:quaran_team/screens/login_screen.dart';
+//import 'package:quaran_team/screens/sign_up_screen.dart';
+
+void main() => runApp(Login());
+
+// The login page application widget
+class Login extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Login UI',
+      debugShowCheckedModeBanner: false,
+      home: LoginScreen(),
+    );
+  }
+}
 
 /// This Widget is the main application widget.
 class MyApp extends StatelessWidget {
