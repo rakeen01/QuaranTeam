@@ -11,14 +11,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:quaran_team/main.dart';
 import 'package:quaran_team/utilities/constants.dart';
-import 'package:quaran_team/screens/sign_up_screen.dart';
 
-class LoginScreen extends StatefulWidget {
+class SignupScreen extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _SignupScreenState createState() => _SignupScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _SignupScreenState extends State<SignupScreen> {
   bool _rememberMe = false;
 
   Widget _buildEmailTF() {
@@ -132,7 +131,7 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
-  Widget _buildLoginBtn() {
+  Widget _buildSignupBtn() {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 25.0),
       width: double.infinity,
@@ -151,7 +150,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         color: Colors.white,
         child: Text(
-          'LOG IN',
+          'SIGN UP',
           style: TextStyle(
             color: Color(0xFF3F51B5),
             letterSpacing: 1.5,
@@ -188,15 +187,10 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
+/*
   Widget _buildSignupBtn() {
     return GestureDetector(
-      //onTap: () => print('Sign Up Button Pressed'),
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => SignupScreen()),
-        );
-      },
+      onTap: () => print('Sign Up Button Pressed'),
       child: RichText(
         text: TextSpan(
           children: [
@@ -221,7 +215,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
-
+*/
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -276,8 +270,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       _buildPasswordTF(),
                       _buildForgotPasswordBtn(),
                       _buildRememberMeCheckbox(),
-                      _buildLoginBtn(),
                       _buildSignupBtn(),
+                      //_buildSignupBtn(),
                     ],
                   ),
                 ),
