@@ -2,7 +2,7 @@
 ///  LoginScreen widget: The app's login screen and it's corresponding           *
 ///  sub-widgets.                                                                *
 ///                                                                              *
-/// @author Md Rakeen Murtaza (rakeen.murtaza.12@gmail.com)                      *
+/// @author Mahathir Hossan Abir Maxim                       *
 ///                                                                              *
 ///*******************************************************************************/
 
